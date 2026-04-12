@@ -1,0 +1,13 @@
+# Secrets — never push
+.env
+
+# Virtual environment — never push (too large, recreatable)
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
